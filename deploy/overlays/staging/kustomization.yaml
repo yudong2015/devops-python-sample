@@ -10,4 +10,4 @@ bases:
 
 images:
   - name: python-sample
-    newTag: 20
+    newTag: "20"
