@@ -1,9 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
-bases:
-  - ../../base
 
 images:
-  - name: registry.cn-huhehaote.aliyuncs.com/ydong/devops-python-sample
-    newTag: "38"
+- name: registry.cn-huhehaote.aliyuncs.com/ydong/devops-python-sample
+  newTag: "10"
+resources:
+- ../../base
