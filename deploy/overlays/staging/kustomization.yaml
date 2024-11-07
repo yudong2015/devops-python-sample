@@ -5,5 +5,5 @@ bases:
   - ../../base
 
 images:
-  - name: registry.cn-huhehaote.aliyuncs.com/ydong/devops-python-sample:18
+  - name: registry.cn-huhehaote.aliyuncs.com/ydong/devops-python-sample
     newTag: "38"
