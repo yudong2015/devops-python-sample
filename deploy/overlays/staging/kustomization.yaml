@@ -6,4 +6,4 @@ bases:
 
 images:
   - name: registry.cn-huhehaote.aliyuncs.com/ydong/devops-python-sample:18
-    newTag: "20"
+    newTag: "38"
