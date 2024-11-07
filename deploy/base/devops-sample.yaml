@@ -23,9 +23,9 @@ spec:
         tier: backend
     spec:
       containers:
-        - image: registry.cn-huhehaote.aliyuncs.com/ydong/devops-python-sample:18
+        - name: python-sample
+          image: registry.cn-huhehaote.aliyuncs.com/ydong/devops-python-sample:18
           imagePullPolicy: Always
-          name: ks-sample
           readinessProbe:
             httpGet:
               path: /
