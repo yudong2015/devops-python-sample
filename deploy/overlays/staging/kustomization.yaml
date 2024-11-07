@@ -4,6 +4,6 @@ kind: Kustomization
 
 images:
 - name: registry.cn-huhehaote.aliyuncs.com/ydong/devops-python-sample
-  newTag: "10"
+  newTag: "18"
 resources:
 - ../../base
